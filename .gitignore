@@ -1,0 +1,115 @@
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências
+node_modules/
+vendor/
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Build / Distribuição
+dist/
+build/
+out/
+target/
+bin/
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+
+# Cobertura de testes
+coverage/
+.nyc_output/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Arquivos compactados
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Certificados e chaves
+*.pem
+*.key
+*.crt
+*.p12
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Relatórios
+*.out
+*.err
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Java
+*.class
+*.jar
+*.war
+
+# .NET
+bin/
+obj/
+
+# Go
+*.exe
+*.test
+
+# Rust
+target/
+Cargo.lock
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker
+.docker/
+
+# Arquivos de configuração local
+*.local
