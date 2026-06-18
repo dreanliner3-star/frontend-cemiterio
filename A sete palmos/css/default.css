@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #252F3F;
     font-family: "Noto Serif", serif;
+    overflow-x: hidden;
 }
 
 header{
