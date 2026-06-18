@@ -5,20 +5,27 @@
 }
 
 body{
-    background-color: #252F3F;
     font-family: "Noto Serif", serif;
 }
 
 header{
     background-color: white;
+    width: 100%;
     border-bottom: 10px solid #D5A85D;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav{
+.a_nav_style{
+    color: #252F3F;
+    text-decoration: none;
+}
+
+ul{
     display: flex;
+    list-style: none;
+    margin-right: 35px;
 }
 
 #logo{
@@ -31,6 +38,21 @@ nav{
     margin: 10px;
 }
 
-footer{
-    
+
+
+@media (max-width: 1000px){
+    header {
+        flex-direction: column;
+    }
+
+    ul {
+        margin-right: 0;
+    }
 }
+
+@media (max-width: 500px){
+    .nav-items {
+        font-size: 16px;
+    }
+}
+

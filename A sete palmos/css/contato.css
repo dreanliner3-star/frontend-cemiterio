@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section{
+    background-color: #252F3F;
+    color: white;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 2px;
+}
