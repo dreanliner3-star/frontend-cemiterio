@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/contato.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -38,34 +40,62 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Contato</h1>
-            <form action="">
-                <ul>
+        <div class="contato-content">
+            <aside>
+                <div>
+                    <h1>Contato</h1>
+                    <br>
+                    <h2>Atendimento 24 Horas</h2>
+                    <p>Escolha a melhor forma para entrar em contato com a A SETE PALMOS:</p>
+                </div>
+                <div class="unidades">
+                    <h3>Unidade 1</h3>
+                    <p>Rua Boa Vista, 308 – Centro – Embu Guaçu/SP
+                    <br>Tel.: (11) 4662-1415</p>
+                </div>
+                <div class="unidades">
+                    <h3>Unidade 2</h3>
+                    <p>Av. Guacy Fernandes Domingues, 81 – Itapecerica da Serra/SP
+                    <br>Tel.: (11) 4666-8835</p>
+                </div>
+                <div class="unidades">
+                    <h3>Unidade 3</h3>
+                    <p>Avenida Doutor Leonardo De Bonna - 39 - Bertioga/SP
+                    <br>Tel.: (13) 3317-3898</p>
+                </div>
+            </aside>
+            <form action="#" method="post">
+                <ul class="form_contato">
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="Nome" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="Enderço" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="Bairro" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="Cidade" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="CEP" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="E-mail" class="form_items">
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" placeholder="Telefone" class="form_items">
                     </li>
+                    <li>
+                        <input type="text" placeholder="Assunto" class="form_items">
+                    </li>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" rows="10" cols="53"></textarea>
+                    <input type="submit" value="Enviar" id="btn_enviar">
                 </ul>
             </form>
-        </section>
+        </div>
     </main>
 </body>
+
 </html>
